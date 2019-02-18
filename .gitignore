@@ -28,3 +28,8 @@ proguard/
 
 # Log Files
 *.log
+gradlew.bat
+gradlew
+gradle.properties
+app/src/test/java/com/bamboy/bamtoast/ExampleUnitTest.java
+app/src/androidTest/java/com/bamboy/bamtoast/ExampleInstrumentedTest.java

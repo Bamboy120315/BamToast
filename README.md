@@ -56,3 +56,109 @@ Toast也会随之离开。
 所以必须要使用本类的Context,  
 不能使用getApplicationContext()，  
 切记！  
+
+方法文档：
+
+    /**
+     * 显示一个纯文本吐司
+     *
+     * @param context  上下文
+     * @param stringId 显示的文本的Id
+     */
+    BamToast.showText(context, stringId);
+
+    /**
+     * 显示一个纯文本吐司
+     *
+     * @param context 上下文
+     * @param text    显示的文本
+     */
+    BamToast.showText(context, text...);
+
+    /**
+     * 显示一个带图标的吐司
+     *
+     * @param context   上下文
+     * @param stringId  显示的文本在String.xml中的name
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, stringId,  isSucceed);
+
+    /**
+     * 显示一个带图标的吐司
+     *
+     * @param context   上下文
+     * @param text      显示的文本
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, text,
+                                isSucceed);
+
+    /**
+     * 显示一个带小字、带图标的吐司
+     *
+     * @param context   上下文
+     * @param text      显示的文本
+     * @param subText   显示的副标题
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, text, subText, isSucceed);
+
+    /**
+     * 显示一个纯文本吐司，可以控制显示时间长一点
+     *
+     * @param context  上下文
+     * @param stringId 显示的文本的Id
+     * @param time     持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     */
+    BamToast.showText(context, stringId, time);
+
+    /**
+     * 显示一个纯文本吐司，可以控制显示时间长一点
+     *
+     * @param context 上下文
+     * @param text    显示的文本
+     * @param time    持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     */
+    BamToast.showText(context, text, time);
+
+    /**
+     * 显示一个纯文本、带小字吐司，可以控制显示时间长一点
+     *
+     * @param context 上下文
+     * @param text    显示的文本
+     * @param subText 显示的副标题
+     * @param time    持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     */
+    BamToast.showText(context, text, subText, time);
+
+    /**
+     * 显示一个带图标的吐司，可以控制显示时间长一点
+     *
+     * @param context   上下文
+     * @param stringId  显示的文本的Id
+     * @param time      持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, stringId, time, isSucceed);
+
+    /**
+     * 显示一个带图标的吐司
+     *
+     * @param context   上下文
+     * @param text      显示的文本
+     * @param time      持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, text, time, isSucceed);
+
+    /**
+     * 显示一个带小字、带图标的吐司，可以控制显示时间长一点
+     *
+     * @param context   上下文
+     * @param text      显示的文本
+     * @param subText   显示的副标题
+     * @param time      持续的时间【Toast.LENGTH_SHORT】【Toast.LENGTH_LONG】
+     * @param isSucceed 显示【对号图标】还是【叉号图标】
+     */
+    BamToast.showText(context, text, subText, time, isSucceed);

@@ -81,7 +81,7 @@ public class BamToast {
      * 显示一个带图标的吐司
      *
      * @param context   上下文
-     * @param stringId  显示的文本的Id
+     * @param stringId  显示的文本在String.xml中的name
      * @param isSucceed 显示【对号图标】还是【叉号图标】
      */
     public static void showText(Context context, int stringId, boolean isSucceed) {
@@ -101,7 +101,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个带图标的吐司
+     * 显示一个带小字、带图标的吐司
      *
      * @param context   上下文
      * @param text      显示的文本
@@ -114,7 +114,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个纯文本吐司
+     * 显示一个纯文本吐司，可以控制显示时间长一点
      *
      * @param context  上下文
      * @param stringId 显示的文本的Id
@@ -125,7 +125,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个纯文本吐司
+     * 显示一个纯文本吐司，可以控制显示时间长一点
      *
      * @param context 上下文
      * @param text    显示的文本
@@ -136,7 +136,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个纯文本吐司
+     * 显示一个纯文本、带小字吐司，可以控制显示时间长一点
      *
      * @param context 上下文
      * @param text    显示的文本
@@ -148,7 +148,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个带图标的吐司
+     * 显示一个带图标的吐司，可以控制显示时间长一点
      *
      * @param context   上下文
      * @param stringId  显示的文本的Id
@@ -174,7 +174,7 @@ public class BamToast {
     }
 
     /**
-     * 显示一个带图标的吐司
+     * 显示一个带小字、带图标的吐司，可以控制显示时间长一点
      *
      * @param context   上下文
      * @param text      显示的文本
